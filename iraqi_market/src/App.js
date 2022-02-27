@@ -1,9 +1,12 @@
-import './App.css';
+import React, { Component } from 'react';
+import Todose from './tooles/Todos';
 
-function App() {
+class App extends Component{
+  render(){
   return (
-    <h1>hi</h1>
+    <Todose />
   );
+}
 }
 
 export default App;
